@@ -1,5 +1,5 @@
 # Meeting_ICH_24Mar2020
-Ferrán González Hernándes on Biomedical Natural Language Processing: Applications and Software
+Ferrán González Hernández on Biomedical Natural Language Processing: Applications and Software
 
 Abstract
 
