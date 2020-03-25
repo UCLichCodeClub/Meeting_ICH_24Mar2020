@@ -28,7 +28,7 @@ https://www.anaconda.com/distribution/
 2. Install dependencies
 
 ````
-pip install requirements.txt
+pip install -r requirements.txt
 pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.4/en_ner_bc5cdr_md-0.2.4.tar.gz
 ````
 
