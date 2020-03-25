@@ -8,35 +8,38 @@ With a growing volume of biomedical information reported in textual format, Natu
 
 This meeting is virtual - it will take place on MS Teams, look for the group ICH Coding Club.
 
+
 # Running instructions for jupyter notebooks: 
 
-0. Clone this repository in your local machine and access the directory
+0. Clone this repository in your local machine and access the directory through the dollowing bash commands:
 
 ````
 git clone https://github.com/UCLichCodeClub/Meeting_ICH_25Mar2020
 cd Meeting_ICH_25Mar2020
 ````
 
-1. Install conda and make sure you can run it from terminal. See details: https://docs.conda.io/projects/conda/en/latest/user-guide/install/
+1. Install python 3 and anaconda. Make sure the "pip" commands runs python 3 in bash terminal. Otherwise use pip3 for the following steps. 
 
-2. Make new environment by running the following on a bash shell:
-
-````
-conda create -n nlptutorial python=3.7
-````
-
-3. Activate environment
+https://www.python.org/downloads/
+https://www.anaconda.com/distribution/
 
 ````
-conda activate nlptutorial 
-````
 
-4. Launch jupyter and open the desired notebook
+2. Install dependencies
 
 ````
-juputer notebook
+pip install requirements.txt
+pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.4/en_ner_bc5cdr_md-0.2.4.tar.gz
 ````
 
-5. For running DocClassification.ipynb you will need to download this data on the same working directory: 
+3. Launch jupyter from Meeting_ICH_25Mar2020 repository:
+
+````
+jupyter notebook 
+````
+
+This should open a local host from which you can access and run the notebooks
+
+4. For running DocClassification.ipynb you will need to download and extract this data on the Meeting_ICH_25Mar2020 directory: 
 
 http://www.cs.cornell.edu/people/pabo/movie-review-data/review_polarity.tar.gz
