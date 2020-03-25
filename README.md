@@ -23,7 +23,7 @@ cd Meeting_ICH_25Mar2020
 https://www.python.org/downloads/
 https://www.anaconda.com/distribution/
 
-````
+
 
 2. Install dependencies
 
