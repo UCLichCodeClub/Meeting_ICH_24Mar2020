@@ -11,7 +11,7 @@ This meeting is virtual - it will take place on MS Teams, look for the group ICH
 
 # Running instructions for jupyter notebooks: 
 
-0. Clone this repository in your local machine and access the directory through the following bash commands:
+0. Clone this repository on your local machine and access the directory through the following bash commands:
 
 ````
 git clone https://github.com/UCLichCodeClub/Meeting_ICH_25Mar2020
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.4/en_ner_bc5cdr_md-0.2.4.tar.gz
 ````
 
-3. Launch jupyter from Meeting_ICH_25Mar2020 repository:
+3. Launch jupyter from Meeting_ICH_25Mar2020 directory:
 
 ````
 jupyter notebook 
