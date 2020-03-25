@@ -11,14 +11,14 @@ This meeting is virtual - it will take place on MS Teams, look for the group ICH
 
 # Running instructions for jupyter notebooks: 
 
-0. Clone this repository in your local machine and access the directory through the dollowing bash commands:
+0. Clone this repository in your local machine and access the directory through the following bash commands:
 
 ````
 git clone https://github.com/UCLichCodeClub/Meeting_ICH_25Mar2020
 cd Meeting_ICH_25Mar2020
 ````
 
-1. Install python 3 and anaconda. Make sure the "pip" commands runs python 3 in bash terminal. Otherwise use pip3 for the following steps. 
+1. Install python 3 and anaconda. Make sure "pip" (or pip3)runs python 3 in bash terminal
 
 https://www.python.org/downloads/
 https://www.anaconda.com/distribution/
